@@ -1,0 +1,19 @@
+# instrukcja podstawienia 
+# a := b;
+# w wyniku wykonania tej instrukcji zmienna 'a' przyjmuje wartość zmiennej 'b'
+
+# instrukcja warunkowa
+# if (warunek) then
+# else
+
+# instrukcja pętli do-while
+# pętla tak długo jest wykonywana, gdy warunek ma wartość 'prawda'
+# warunek jest sprawdzany na końcu (po wykonaniu instrukcji wewnętrznych) 
+
+# instrukcja pętli while
+# pętla tak długo jest wykonywana, gdy warunek ma wartość 'prawda'
+# warunek jest sprawdzany na początku (przed wykonaniem1 instrukcji wewnętrznych) 
+
+# 
+# 
+# 

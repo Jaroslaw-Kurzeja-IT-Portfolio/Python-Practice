@@ -1,0 +1,5 @@
+Poznaæ podstawy Pythona.
+Napisaæ pierwsz¹ aplikacjê w Pythonie.
+aaaa
+bbbb
+ccccc
