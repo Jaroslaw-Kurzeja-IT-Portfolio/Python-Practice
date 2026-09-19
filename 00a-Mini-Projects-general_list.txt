@@ -1,0 +1,60 @@
+Mini Projects:
+
+1. Text Adventure Games
+(Gry tekstowe)
+
+2. Login Systems
+(Systemy logowania i użytkowników)
+
+3. Unit Converters (Konwertery)
+
+4. Logic & Guessing Games
+(Gry logiczne i zgadywanki)
+
+5. Quiz Games (Quizy)
+
+6. Generators (Generatory)
+
+7. Calculators (Kalkulatory)
+
+8. Contact Books (Książki kontaktów)
+
+9. To-Do Lists (Listy zadań)
+
+10. Text Processing Programs
+(Programy do pracy z tekstem)
+
+11. Data Validation Programs
+(Programy do walidacji danych)
+
+12. Data Processing Programs
+(Programy do przetwarzania danych)
+
+13. File Handling Programs
+(Programy do pracy z plikami)
+
+14. Date & Time Programs
+(Programy wykorzystujące datę i czas)
+
+15. Randomness-Based Programs
+(Programy wykorzystujące losowość)
+
+16. Financial Programs (Programy finansowe)
+
+17. Organizational Programs (Programy organizacyjne)
+
+18. Search & Filtering Programs
+(Programy wyszukujące i filtrujące)
+
+19. Sorting Programs (Programy sortujące)
+
+20. Statistical & Computational Programs
+(Programy statystyczne i obliczeniowe)
+
+21. Modules & Code Organization Programs
+(Programy ćwiczące moduły i organizację kodu)
+
+22. Error & Exception Handling Programs
+(Programy ćwiczące obsługę błędów i wyjątków)
+
+23. Simple Simulations (Proste symulacje)

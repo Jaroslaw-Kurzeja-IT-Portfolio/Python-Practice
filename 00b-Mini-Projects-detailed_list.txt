@@ -1,0 +1,686 @@
+1. Text Adventure Games — gry tekstowe
+
+Co robisz: program prowadzi Cię przez historię, a Ty wybierasz opcje.
+
+Przykłady:
+
+- gra typu „ucieczka z pokoju”
+
+- przygoda w lochach
+
+- wybór drogi: 1. Idź do lasu / 2. Idź do zamku
+
+- Hangman / Wisielec też może tutaj pasować.
+
+
+Ćwiczysz głównie: if, while, input, zmienne, funkcje, listy/stringi.
+
+
+---
+
+2. Login Systems — systemy logowania
+
+Tak — logowanie użytkownika.
+
+Przykład:
+
+Username: Jarek
+Password: ******
+→ Login successful
+
+Program może mieć:
+
+rejestrację użytkownika
+
+login
+
+hasło
+
+sprawdzanie poprawności danych
+
+komunikat o błędnym haśle
+
+limit prób logowania
+
+wylogowanie
+
+
+Walidacja oznacza po prostu: sprawdzenie, czy dane spełniają wymagania.
+
+Np.:
+
+Podaj wiek: abc
+→ Błąd: wiek musi być liczbą.
+
+
+---
+
+3. Unit Converters — konwertery
+
+Tu chodzi o zamianę jednej wartości/jednostki na inną.
+
+Np.:
+
+10 km → 6.21 miles
+25 °C → 77 °F
+2 kg → 2000 g
+90 minutes → 1.5 hours
+
+Zmiana małych liter na duże litery to nie konwerter jednostek — to raczej Text Processing.
+
+Możemy zrobić nawet jeden większy Unit Converter, który ma kilka kategorii.
+
+
+---
+
+4. Logic & Guessing Games — gry logiczne i zgadywanki
+
+Tutaj chodzi o programy, w których użytkownik musi odgadnąć albo logicznie rozwiązać problem.
+
+Przykłady:
+
+Number Guessing Game
+
+zgadywanie liczby z podpowiedziami „za mała / za duża”
+
+Rock Paper Scissors
+
+prosty Mastermind
+
+zgadywanie słowa
+
+prosta gra z zagadkami logicznymi
+
+
+Wisielec może pasować zarówno tutaj, jak i do Text Adventure. Kategorie nie muszą być matematycznie rozłączne.
+
+
+---
+
+5. Quiz Games — quizy
+
+Dokładnie tak, jak powiedziałeś.
+
+What is the capital of Germany?
+
+A. Berlin
+B. Munich
+C. Hamburg
+D. Frankfurt
+
+Program sprawdza odpowiedź i nalicza punkty.
+
+Nie potrzebujesz ChatGPT/AI.
+
+Na początek odpowiedzi mogą być:
+
+A/B/C/D
+
+wpisywane słowo
+
+liczba
+
+
+Interpretowanie dowolnych odpowiedzi przez AI to już zupełnie kolejny poziom i możemy kiedyś zrobić taki projekt.
+
+
+---
+
+6. Generators — generatory
+
+Program, który automatycznie coś tworzy.
+
+Przykłady:
+
+Password Generator
+
+losowy username
+
+generator kodów PIN
+
+generator losowego tekstu
+
+generator numerów
+
+generator danych testowych
+
+
+Czyli zamiast użytkownikowi coś obliczać, program produkuje dane według określonych reguł.
+
+
+---
+
+7. Calculators — kalkulatory
+
+Nie musi chodzić o kalkulator jak w Windowsie.
+
+Przykłady:
+
+10 + 5 = 15
+
+ale też:
+
+kalkulator BMI
+
+kalkulator wieku
+
+kalkulator napiwku
+
+kalkulator kalorii
+
+kalkulator procentów
+
+kalkulator rat
+
+kalkulator pola/objętości
+
+
+Czyli użytkownik podaje wartości → program wykonuje określone obliczenie → pokazuje wynik.
+
+
+---
+
+8. Contact Books — książki kontaktów
+
+Tak — cyfrowa książka kontaktów.
+
+Np.:
+
+1. Add contact
+2. Show contacts
+3. Search contact
+4. Edit contact
+5. Delete contact
+
+Kontakt może mieć:
+
+Name
+Phone
+Email
+
+I tutaj zaczyna się już ciekawsza praca z listami/dictionary, a później z plikami.
+
+
+---
+
+9. To-Do Lists — listy zadań
+
+Tak.
+
+Możemy mieć:
+
+dodawanie zadania
+
+usuwanie
+
+oznaczanie jako wykonane
+
+edycję
+
+priorytet
+
+sortowanie
+
+filtrowanie
+
+kategorie
+
+
+Np.:
+
+[HIGH] Learn Python
+[MEDIUM] Practice SQL
+[DONE] Create GitHub repository
+
+
+---
+
+10. Text Processing Programs — programy do pracy z tekstem
+
+Tutaj właśnie wchodzą rzeczy, które podałeś.
+
+Np.:
+
+hello world
+
+Program może:
+
+zamienić na HELLO WORLD
+
+zamienić na Hello World
+
+policzyć znaki
+
+policzyć słowa
+
+znaleźć konkretne słowo
+
+usunąć spacje
+
+zamienić słowa
+
+odwrócić tekst
+
+sprawdzić palindrom
+
+policzyć występowanie każdej litery
+
+
+Czyli manipulowanie stringami.
+
+
+---
+
+11. Data Validation Programs — walidacja danych
+
+Tutaj ćwiczysz właśnie sprawdzanie danych wejściowych.
+
+Np.:
+
+Enter age: 25
+→ Valid
+
+ale:
+
+Enter age: abc
+→ Invalid
+
+Albo:
+
+sprawdzenie emaila
+
+sprawdzenie hasła
+
+sprawdzenie numeru telefonu
+
+sprawdzenie zakresu liczby
+
+sprawdzenie, czy pole nie jest puste
+
+sprawdzenie formatu daty
+
+
+To będzie bardzo przydatne również w systemie logowania.
+
+
+---
+
+12. Data Processing Programs — przetwarzanie danych
+
+Tu data = dane, a niekoniecznie daty.
+
+Np. masz:
+
+[12, 5, 8, 20, 3]
+
+i program:
+
+usuwa niepotrzebne dane
+
+przelicza wartości
+
+zmienia format
+
+wyszukuje dane
+
+filtruje
+
+grupuje
+
+podsumowuje
+
+
+Albo:
+
+["12", "5", "8"]
+
+→ zamiana na:
+
+[12, 5, 8]
+
+Więc Twoje skojarzenie str → int jest jak najbardziej związane z przetwarzaniem danych, ale to tylko jeden mały przykład.
+
+
+---
+
+13. File Handling Programs — praca z plikami
+
+Tak: otwieranie, odczytywanie, zapisywanie, modyfikowanie plików.
+
+Np.:
+
+notes.txt
+
+Program:
+
+1. Read file
+2. Add note
+3. Save file
+
+Później:
+
+TXT
+
+CSV
+
+JSON
+
+
+Np. książka kontaktów zapisana w contacts.json.
+
+To jest już bardzo praktyczna rzecz.
+
+
+---
+
+14. Date & Time Programs — data i czas
+
+Dokładnie.
+
+Przykłady:
+
+aktualna data i godzina
+
+kalkulator wieku
+
+ile dni zostało do urodzin
+
+różnica między dwiema datami
+
+countdown
+
+sprawdzanie dnia tygodnia
+
+prosty timer
+
+stopwatch
+
+
+
+---
+
+15. Randomness-Based Programs — losowość
+
+Tak — Dice / rzut kostką jest idealnym przykładem.
+
+Inne:
+
+losowanie liczby
+
+losowanie karty
+
+losowy wybór użytkownika
+
+random password
+
+random team generator
+
+random event generator
+
+
+Czyli wykorzystujesz mechanizmy losowe Pythona.
+
+
+---
+
+16. Financial Programs — programy finansowe
+
+Nie tylko „zestawienie danych”.
+
+Przykłady:
+
+kalkulator budżetu
+
+wydatki miesięczne
+
+przychody vs wydatki
+
+kalkulator oszczędności
+
+kalkulator odsetek
+
+podział rachunku
+
+śledzenie wydatków
+
+miesięczne podsumowanie finansowe
+
+
+Np.:
+
+Income:     2500 €
+Expenses:   1900 €
+Remaining:   600 €
+
+
+---
+
+17. Organizational Programs — programy organizacyjne
+
+Tu rzeczywiście jest trochę podobieństwa do To-Do List.
+
+Ale chodzi szerzej o organizowanie informacji lub pracy.
+
+Przykłady:
+
+planner
+
+habit tracker
+
+timetable
+
+organizer wydarzeń
+
+system rezerwacji
+
+lista rzeczy do zrobienia na różne dni
+
+prosty system zarządzania projektami
+
+organizer nauki
+
+
+To-Do List jest jednym z przykładów, ale nie wyczerpuje kategorii.
+
+
+---
+
+18. Search & Filtering Programs — wyszukiwanie i filtrowanie
+
+Tutaj program dostaje zbiór danych, a Ty coś z niego wyszukujesz.
+
+Np.:
+
+["Anna", "Jan", "Jarek", "Piotr"]
+
+Wyszukujesz:
+
+"Jan"
+
+Albo masz:
+
+products = [
+    {"name": "Laptop", "price": 900},
+    {"name": "Mouse", "price": 20},
+    {"name": "Monitor", "price": 300}
+]
+
+I filtrujesz:
+
+price < 500
+
+Czyli dostajesz tylko produkty spełniające warunek.
+
+
+---
+
+19. Sorting Programs — programy sortujące
+
+Dokładnie — różne dane.
+
+Np.:
+
+[8, 2, 5, 1, 9]
+
+→
+
+[1, 2, 5, 8, 9]
+
+Ale również:
+
+nazwiska alfabetycznie
+
+produkty według ceny
+
+wyniki według punktów
+
+kontakty według nazwiska
+
+zadania według priorytetu
+
+
+
+---
+
+20. Statistical & Computational Programs
+
+To jest trochę szersze niż zwykły kalkulator.
+
+Statystyczne:
+
+średnia
+
+mediana
+
+minimum
+
+maksimum
+
+procenty
+
+liczba wystąpień
+
+proste statystyki zestawu danych
+
+
+Obliczeniowe:
+
+silnia
+
+potęgi
+
+ciąg Fibonacciego
+
+równania
+
+odległości
+
+konwersje matematyczne
+
+różnego rodzaju obliczenia na zbiorach danych
+
+
+Czyli kalkulator może być jednym z projektów, ale tutaj bardziej chodzi o algorytmy i obliczenia na danych.
+
+
+---
+
+21. Modules & Code Organization Programs
+
+Tutaj nazwa opisuje budowę programu, a nie jego funkcję.
+
+Np. zamiast jednego ogromnego:
+
+main.py
+
+robisz:
+
+main.py
+login.py
+users.py
+validation.py
+file_handler.py
+
+I program korzysta z tych modułów.
+
+Ćwiczysz:
+
+import
+
+własne moduły
+
+funkcje
+
+podział kodu
+
+organizację projektu
+
+
+
+---
+
+22. Error & Exception Handling Programs
+
+Znowu — nie chodzi o konkretny rodzaj programu, tylko o to, jak program reaguje na błędy.
+
+Np.:
+
+Enter number: abc
+
+zamiast wywalić program:
+
+ValueError
+
+program mówi:
+
+Invalid input. Please enter a number.
+
+Tutaj będziemy ćwiczyć przede wszystkim:
+
+try
+except
+else
+finally
+
+
+---
+
+23. Simple Simulations — proste symulacje
+
+To jest chyba najbardziej niejasna nazwa.
+
+Symulacja = program, który naśladuje jakiś proces, żeby zobaczyć, co się wydarzy.
+
+Przykłady:
+
+Rzut kostką 1000 razy → sprawdzasz, ile razy wypadło 1, 2, 3 itd.
+
+Symulacja kolejki → ludzie przychodzą, czekają i są obsługiwani.
+
+Symulacja bankomatu → wpłata, wypłata, saldo.
+
+Symulacja ruchu → np. samochód porusza się przez kolejne kroki.
+
+Symulacja epidemii byłaby już bardziej zaawansowana, ale również jest przykładem symulacji.
+
+
+---
+
+I najważniejsza rzecz
+
+Te grupy nie są od siebie szczelnie oddzielone.
+
+Jeden projekt może ćwiczyć 5–6 grup jednocześnie.
+
+Przykładowo Login System może zawierać:
+
+Login System → Data Validation
+→ Error Handling
+→ File Handling
+→ Data Processing
+→ Modules
+→ String Processing
+
+I właśnie dlatego nie musimy teraz tworzyć 100 osobnych projektów. Robimy konkretny program, a przy okazji uczymy się kilku rzeczy naraz.
+
+To będzie dużo bardziej naturalny sposób nauki niż próba „odhaczania” każdej kategorii osobno.
