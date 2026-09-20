@@ -1,0 +1,127 @@
+PYTHON PRACTICE
+
+Date / Data: 20.09.2026
+Program / Program: Login System
+
+GENERAL PLAN / PLAN OGÓLNY
+
+I. What I Worked On / Nad czym pracowałem
+
+II. What I Learned / Czego się nauczyłem
+
+III. What I Still Want to Learn / Czego chcę się jeszcze nauczyć
+
+
+---
+
+DETAILED PLAN — ENGLISH
+
+I. WHAT I WORKED ON
+
+Worked on improving the structure and organization of the Login System.
+
+Worked on function organization, naming and separation of responsibilities.
+
+Worked on the flow between the Main Menu, User Menu and user session.
+
+Worked on improving the terminal interface and its readability.
+
+Worked on separating the login-checking process into smaller responsibilities.
+
+
+II. WHAT I LEARNED
+
+Better understood how parameters, arguments and return values work together when data is passed between functions.
+
+Better understood how a value from one function can become an argument for another function.
+
+Better understood local variables and variable scope.
+
+Better understood the difference between the overall program state and the user session state.
+
+Practiced using separate state variables such as program_running and session_running.
+
+Better understood how to decide whether a piece of code should remain inside a function or be separated into another function.
+
+Learned to think about functions in terms of their responsibilities rather than simply their size.
+
+Better understood how functions can depend on each other and exchange data.
+
+Practiced reading traceback information and following the chain of function calls leading to an error.
+
+Improved my understanding of code organization, naming and readability.
+
+Observed how VS Code/Pylance provides visual feedback about code and identifiers and how this feedback can change depending on how the code is interpreted.
+
+
+III. WHAT I STILL WANT TO LEARN
+
+Deeper understanding of parameters, arguments and return values, especially when data is passed between several functions.
+
+Deeper understanding of variable scope and the relationship between local and global variables.
+
+Further practice with designing functions and separating responsibilities between them.
+
+Deeper understanding of program state and control flow between different levels of a program.
+
+Further understanding of dependencies and data flow between functions in larger programs.
+
+Further practice with reading tracebacks and understanding how errors propagate through function calls.
+
+
+
+---
+
+PLAN SZCZEGÓŁOWY — POLSKI
+
+I. NAD CZYM PRACOWAŁEM
+
+Pracowałem nad poprawą struktury i organizacji Login System.
+
+Pracowałem nad organizacją funkcji, nazewnictwem i rozdzieleniem odpowiedzialności.
+
+Pracowałem nad przepływem pomiędzy Main Menu, User Menu i sesją użytkownika.
+
+Pracowałem nad poprawą interfejsu terminalowego i jego czytelności.
+
+Pracowałem nad rozdzieleniem procesu sprawdzania logowania na mniejsze odpowiedzialności.
+
+
+II. CZEGO SIĘ NAUCZYŁEM
+
+Lepiej zrozumiałem, jak współpracują ze sobą parametry, argumenty i wartości zwracane przez funkcje podczas przekazywania danych.
+
+Lepiej zrozumiałem, jak wartość z jednej funkcji może zostać przekazana jako argument do innej funkcji.
+
+Lepiej zrozumiałem zmienne lokalne i zakres zmiennych.
+
+Lepiej zrozumiałem różnicę pomiędzy stanem całego programu a stanem sesji użytkownika.
+
+Ćwiczyłem wykorzystanie osobnych zmiennych stanu, takich jak program_running i session_running.
+
+Lepiej zrozumiałem, jak decydować, czy fragment kodu powinien pozostać wewnątrz funkcji, czy zostać wydzielony do osobnej funkcji.
+
+Nauczyłem się patrzeć na funkcje pod kątem ich odpowiedzialności, a nie tylko ich długości.
+
+Lepiej zrozumiałem, jak funkcje mogą zależeć od siebie i przekazywać sobie dane.
+
+Ćwiczyłem czytanie tracebacków i śledzenie łańcucha wywołań funkcji prowadzącego do błędu.
+
+Poprawiłem swoje rozumienie organizacji kodu, nazewnictwa i czytelności.
+
+Obserwowałem sposób, w jaki VS Code/Pylance przekazuje wizualne informacje o kodzie i identyfikatorach oraz jak te informacje mogą zmieniać się w zależności od interpretacji kodu.
+
+
+III. CZEGO CHCĘ SIĘ JESZCZE NAUCZYĆ
+
+Lepszego zrozumienia parametrów, argumentów i wartości zwracanych, szczególnie podczas przekazywania danych pomiędzy kilkoma funkcjami.
+
+Lepszego zrozumienia zakresu zmiennych oraz zależności pomiędzy zmiennymi lokalnymi i globalnymi.
+
+Dalszego ćwiczenia projektowania funkcji i rozdzielania odpowiedzialności pomiędzy nimi.
+
+Lepszego zrozumienia stanów programu i przepływu sterowania pomiędzy różnymi poziomami programu.
+
+Lepszego zrozumienia zależności i przepływu danych pomiędzy funkcjami w większych programach.
+
+Dalszego ćwiczenia czytania tracebacków i rozumienia, jak błędy przechodzą przez kolejne wywołania funkcji.
