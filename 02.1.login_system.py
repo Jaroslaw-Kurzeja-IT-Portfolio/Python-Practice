@@ -1,3 +1,12 @@
+# Zmiana wersji 2.1 na wesję 2.2:
+
+#   - WERSJA 2.1 implementuje walidację wyboru w main menu i obsługę wyboru sekwencyjnie.
+#     (przepływ: validate_choice() --> handle_menu_choice() )
+
+#   - WERSJA 2.2 wprowadza rozdzielenie odpowiedzialności w powyższym zakresie.
+#     (validate_choice(), handle_menu_choice() )
+
+
 # Imports
 
 
@@ -31,6 +40,22 @@ def user_menu():
     print("4. Log-out and Exit")
 
 
+def get_choice():
+    choice = input("Choose an option: ")
+    return choice
+
+
+def validate_choice(choice):
+    running = True
+    if choice not in ["1", "2", "3"]:
+        print()
+        print("Invalid choice. Please select an option from 1 to 3.")
+        print()
+    else:
+        running = handle_menu_choice(choice)
+    return running
+
+
 def register():
     print()
     print("REGISTER")
@@ -52,7 +77,7 @@ def login():
 def check_login(login_username, login_password):
     login_successful = False
     users = load_users()
-    
+        
     for user in users:
         username, password = user.split(":")
         
@@ -76,11 +101,6 @@ def load_users():
     return users
 
 
-def get_choice():
-    choice = input("Choose an option: ")
-    return choice
-
-
 def handle_menu_choice(choice):
     if choice == "1":
         register()
@@ -90,6 +110,7 @@ def handle_menu_choice(choice):
         login_successful = check_login(login_username, login_password)
         if login_successful:
             return user_session()
+
 
     elif choice == "3":
         print("Goodbye")
@@ -121,7 +142,10 @@ def user_session():
 
 while running:
     main_menu()
-
+    
     choice = get_choice()
 
-    running = handle_menu_choice(choice)
+    running = validate_choice(choice)
+
+
+    # running = handle_menu_choice(choice)
