@@ -1,9 +1,9 @@
-# Zmiana wersji 2.1 na wesję 2.2:
+# Zmiana wersji v.0.1 na wesję v.0.2:
 
-#   - WERSJA 2.1 implementuje walidację wyboru w main menu i obsługę wyboru sekwencyjnie.
+#   - WERSJA v.0.1 implementuje walidację wyboru w main menu i obsługę wyboru sekwencyjnie.
 #     (przepływ: validate_choice() --> handle_menu_choice() )
 
-#   - WERSJA 2.2 wprowadza rozdzielenie odpowiedzialności w powyższym zakresie.
+#   - WERSJA v.0.2 wprowadza rozdzielenie odpowiedzialności w powyższym zakresie.
 #     (validate_choice(), handle_menu_choice() )
 
 

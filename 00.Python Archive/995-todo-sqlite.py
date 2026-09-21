@@ -1,8 +1,13 @@
 # 1:49:45
 
 import sqlite3
+from pathlib import Path
 
-connection = sqlite3.connect("todo.db")
+# connection = sqlite3.connect("todo.db")
+
+database_path = Path(__file__).parent / "todo.db"
+connection = sqlite3.connect(database_path)
+
 
 def create_table(connection):
     try:
