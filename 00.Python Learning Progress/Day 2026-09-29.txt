@@ -1,0 +1,477 @@
+PYTHON LEARNING PROGRESS
+
+GENERAL PLAN / PLAN OGÓLNY
+
+I. What I Worked On / Nad czym pracowałem
+II. What I Learned / Czego się nauczyłem
+III. What I Still Want to Learn / Czego chcę się jeszcze nauczyć
+
+
+==================================================
+ENGLISH
+==================================================
+
+I. WHAT I WORKED ON
+
+I.1. Python Basics
+- Variables and constants
+- Basic data types
+- Strings
+- Lists
+- Boolean values
+- if / elif / else
+- for and while loops
+- break
+- return
+- input()
+
+I.2. Functions
+- Defining and calling functions
+- Parameters and arguments
+- Returning values from functions
+- Passing data between functions
+- Using True, False and None
+- Local variables and scope
+- Separating responsibilities between functions
+
+I.3. Login System Project
+- Main Menu
+- User Menu
+- Registration
+- Login
+- Username and password validation
+- Username uniqueness
+- Multiple users
+- Saving and loading users from a text file
+- Login verification
+- User sessions
+- Logout
+- Cancelling registration and login with ESC
+- Refactoring functions and separating responsibilities
+
+I.4. Program Structure, Architecture and Data Flow
+- Organizing the program into functions
+- Separating responsibilities between functions
+- Calling one function from another
+- Passing data and results between functions
+- Following the flow of data through multiple functions
+- Using returned values from one function in another function
+- Using True, False, None and str as returned values
+- Returning multiple values, for example (username, password)
+- Working with different possible results of one function
+
+I.5. Input Handling and Validation
+- Validation of menu choices
+- Validation of usernames
+- Validation of passwords
+- Handling invalid input
+- Separating validation from the main program logic
+- Implementing ESC as a cancellation option
+
+I.6. Files and Data Storage
+- Opening and closing files
+- Reading and writing files
+- Different file modes
+- Saving user data in users.txt
+- Appending new users without overwriting existing users
+- Loading stored users
+- Searching through stored data
+
+I.7. Python Modules and Libraries
+- Using import
+- Working with the standard library
+- Using string
+- Installing and using external Python packages
+- Using readchar for keyboard input
+
+I.8. Debugging and Program Structure
+- Reading error messages and tracebacks
+- Using temporary debug output
+- Following the flow of returned values
+- Organizing code into logical sections
+- Improving function and variable names
+- Working with Python in VS Code
+
+
+II. WHAT I LEARNED
+
+II.1. Functions and Data Flow
+- How functions communicate with each other
+- How data is passed between functions
+- How return passes a result back to the calling function
+- How a returned value can control the next part of the program
+- How the result of one function can be used by another function
+- How to follow the flow of data through several functions
+
+II.2. return, break and None
+- return ends the current function
+- break ends the current loop
+- None can be used as a special return value
+- None can represent cancellation or the absence of a result
+- How to pass a cancellation result through several functions
+
+II.3. Different Return Values and Data Types
+- Using True and False as Boolean results
+- Using None to represent cancellation or the absence of a result
+- Returning strings such as usernames and passwords
+- Returning multiple values in a tuple such as (username, password)
+- Understanding the difference between False, None and string data
+- Using different return values to control the program flow
+
+II.4. Input Cancellation with ESC
+- How keyboard input can be handled with readchar
+- How pressing ESC can cancel an operation
+- How None can be used to communicate cancellation
+- How cancellation needs to be handled by the functions calling the input function
+
+II.5. Separation of Responsibilities
+- Why validation and menu handling can be separate functions
+- Why input collection, validation, data storage and authentication can be separated
+- How separating responsibilities makes the program easier to understand and expand
+
+II.6. Program and Session State
+- The difference between the state of the whole program and the state of a logged-in user session
+- How program_running and session_running can control different parts of the application
+- How functions can return multiple values to control program flow
+
+II.7. Working with Multiple Users
+- How to add new users without deleting existing users
+- How to search stored users
+- How to compare entered credentials with stored credentials
+- How simple text storage works and what its limitations are
+
+II.8. External Libraries
+- The difference between Python's standard library and external packages
+- How to install an external package
+- How to import and use a package in a Python project
+- Basic use of readchar
+
+
+III. WHAT I STILL WANT TO LEARN
+
+III.1. Program Architecture and Planning
+- Better understanding of program architecture
+- Analyzing how a program is structured
+- Planning the structure of a program before coding
+- Presenting program structure in list form
+- Presenting program structure in diagram form
+- Using Outline to analyze code structure
+- Using Function Visualizer to visualize functions and their dependencies
+- Representing dependencies and data flow between functions
+- Practicing program structure and architecture before writing the code
+
+III.2. Data Flow and Function Interaction
+- Better understanding of data flow between functions
+- Practicing passing and returning data
+- Better understanding of dependencies between functions
+- Practicing the design of data flow in larger programs
+- Understanding how information moves through several layers of a program
+
+III.3. Input Validation and Error Handling
+- Continuing to practice validation
+- Handling different types of invalid input
+- Improving error handling
+- Better connecting validation with the program flow
+
+III.4. Data Structures
+- Dictionaries
+- Nested dictionaries
+- More advanced data structures
+- Choosing the appropriate data structure for a problem
+
+III.5. JSON
+- JSON structure
+- Reading and writing JSON files
+- Converting between Python data and JSON
+- Using JSON for application data
+
+III.6. Files and Paths
+- with open()
+- Working with file paths
+- Working with directories
+- Organizing project files and folders
+
+III.7. Modules and Project Architecture
+- Creating own Python modules
+- Importing functions and variables from own modules
+- Dividing larger projects into multiple files
+- Building a modular application
+
+III.8. Classes and Objects
+- Classes
+- Objects
+- Attributes
+- Methods
+- Constructors
+- Encapsulation
+- Inheritance
+- Practical use of OOP
+
+III.9. Databases
+- SQLite
+- Database structure
+- Connecting Python with a database
+- Working with SQL from Python
+- MySQL from Python
+
+III.10. APIs
+- What APIs are
+- Sending and receiving data
+- Working with APIs in Python
+- Connecting applications with external services
+
+III.11. Testing and Test Automation
+- Manual testing
+- Test cases
+- Bug reporting
+- Regression testing
+- Automated testing
+- pytest
+- Web application automation with tools such as Playwright
+
+III.12. Application Development
+- Streamlit
+- Building applications with a user interface
+- Frontend and backend communication
+- Building larger Python applications
+
+III.13. AI Integration
+- Working with AI APIs
+- Connecting Python applications with AI services
+- Using different external AI providers
+- Integrating AI into larger applications
+
+
+==================================================
+POLISH
+==================================================
+
+I. NAD CZYM PRACOWAŁEM
+
+I.1. Podstawy Pythona
+- Zmienne i stałe
+- Podstawowe typy danych
+- Stringi
+- Listy
+- Wartości logiczne
+- if / elif / else
+- Pętle for i while
+- break
+- return
+- input()
+
+I.2. Funkcje
+- Definiowanie i wywoływanie funkcji
+- Parametry i argumenty
+- Zwracanie wartości przez funkcje
+- Przekazywanie danych pomiędzy funkcjami
+- Wykorzystanie True, False i None
+- Zmienne lokalne i zakres zmiennych
+- Rozdzielanie odpowiedzialności pomiędzy funkcjami
+
+I.3. Projekt Login System
+- Main Menu
+- User Menu
+- Rejestracja
+- Logowanie
+- Walidacja username i password
+- Unikalność username
+- Obsługa wielu użytkowników
+- Zapisywanie i wczytywanie użytkowników z pliku tekstowego
+- Sprawdzanie danych logowania
+- Sesja użytkownika
+- Wylogowanie
+- Anulowanie rejestracji i logowania przez ESC
+- Refaktoryzacja funkcji i rozdzielanie odpowiedzialności
+
+I.4. Budowa programu, architektura i Data Flow
+- Organizowanie programu za pomocą funkcji
+- Rozdzielanie odpowiedzialności pomiędzy funkcjami
+- Wywoływanie jednej funkcji przez inną funkcję
+- Przekazywanie danych i wyników pomiędzy funkcjami
+- Śledzenie przepływu danych przez wiele funkcji
+- Wykorzystywanie wartości zwróconych przez jedną funkcję w kolejnej funkcji
+- Wykorzystanie True, False, None i str jako zwracanych wartości
+- Zwracanie kilku wartości, np. (username, password)
+- Praca z różnymi możliwymi wynikami jednej funkcji
+
+I.5. Obsługa danych wejściowych i walidacja
+- Walidacja wyborów w menu
+- Walidacja username
+- Walidacja password
+- Obsługa nieprawidłowych danych wejściowych
+- Oddzielenie walidacji od głównej logiki programu
+- Wprowadzenie ESC jako sposobu anulowania operacji
+
+I.6. Pliki i przechowywanie danych
+- Otwieranie i zamykanie plików
+- Odczyt i zapis plików
+- Różne tryby otwierania plików
+- Zapisywanie danych użytkowników w users.txt
+- Dopisywanie nowych użytkowników bez nadpisywania istniejących
+- Wczytywanie zapisanych użytkowników
+- Wyszukiwanie danych w zapisanych użytkownikach
+
+I.7. Moduły i biblioteki Pythona
+- Używanie import
+- Praca ze standardową biblioteką
+- Wykorzystanie string
+- Instalowanie i używanie zewnętrznych pakietów Pythona
+- Wykorzystanie readchar do obsługi klawiatury
+
+I.8. Debugowanie i struktura programu
+- Czytanie komunikatów błędów i tracebacków
+- Wykorzystywanie tymczasowych komunikatów debugujących
+- Śledzenie przepływu zwracanych wartości
+- Organizowanie kodu w logiczne sekcje
+- Poprawianie nazw funkcji i zmiennych
+- Praca z Pythonem w VS Code
+
+
+II. CZEGO SIĘ NAUCZYŁEM
+
+II.1. Funkcje i Data Flow
+- Jak funkcje komunikują się ze sobą
+- Jak dane są przekazywane pomiędzy funkcjami
+- Jak return przekazuje wynik do funkcji wywołującej
+- Jak zwrócona wartość może sterować dalszą częścią programu
+- Jak wynik jednej funkcji może zostać wykorzystany przez inną funkcję
+- Jak śledzić przepływ danych przez kilka funkcji
+
+II.2. return, break i None
+- return kończy działanie bieżącej funkcji
+- break kończy działanie bieżącej pętli
+- None może być wykorzystywane jako specjalna wartość zwracana
+- None może oznaczać anulowanie operacji lub brak wyniku
+- Jak przekazywać informację o anulowaniu przez kilka funkcji
+
+II.3. Różne wartości zwracane i typy danych
+- Wykorzystanie True i False jako wyników logicznych
+- Wykorzystanie None do oznaczania anulowania lub braku wyniku
+- Zwracanie stringów, np. username i password
+- Zwracanie kilku wartości w postaci krotki, np. (username, password)
+- Rozumienie różnicy pomiędzy False, None i danymi typu string
+- Wykorzystywanie różnych wartości zwracanych do sterowania przepływem programu
+
+II.4. Anulowanie operacji przez ESC
+- Obsługa danych z klawiatury za pomocą readchar
+- Wykorzystanie ESC do anulowania operacji
+- Wykorzystanie None do przekazywania informacji o anulowaniu
+- Obsługa anulowania przez funkcje wywołujące funkcję odpowiedzialną za pobieranie danych
+
+II.5. Rozdzielanie odpowiedzialności
+- Dlaczego walidacja i obsługa menu mogą być osobnymi funkcjami
+- Dlaczego pobieranie danych, walidacja, zapis danych i uwierzytelnianie mogą być rozdzielone
+- Jak rozdzielanie odpowiedzialności ułatwia rozumienie i rozwijanie programu
+
+II.6. Stan programu i sesji
+- Różnica pomiędzy stanem całego programu a stanem sesji zalogowanego użytkownika
+- Jak program_running i session_running mogą sterować różnymi częściami aplikacji
+- Jak funkcje mogą zwracać kilka wartości w celu sterowania przepływem programu
+
+II.7. Praca z wieloma użytkownikami
+- Dodawanie nowych użytkowników bez usuwania istniejących
+- Wyszukiwanie zapisanych użytkowników
+- Porównywanie podanych danych logowania z zapisanymi danymi
+- Jak działa proste przechowywanie danych w pliku tekstowym i jakie ma ograniczenia
+
+II.8. Biblioteki zewnętrzne
+- Różnica pomiędzy standardową biblioteką Pythona a zewnętrznymi pakietami
+- Instalowanie zewnętrznego pakietu
+- Importowanie i wykorzystywanie pakietu w projekcie
+- Podstawowe wykorzystanie readchar
+
+
+III. CZEGO CHCĘ SIĘ JESZCZE NAUCZYĆ
+
+III.1. Architektura i planowanie programu
+- Lepsze rozumienie architektury programu
+- Analizowanie struktury programu i sposobu, w jaki jest zbudowany
+- Planowanie struktury programu przed rozpoczęciem kodowania
+- Przedstawianie struktury programu w formie listy
+- Przedstawianie struktury programu w formie diagramu
+- Korzystanie z Outline do analizy struktury kodu
+- Korzystanie z Function Visualizer do wizualnego przedstawiania funkcji i ich zależności
+- Przedstawianie zależności i przepływu pomiędzy funkcjami
+- Ćwiczenie projektowania struktury programu przed napisaniem kodu
+
+III.2. Data Flow i współpraca funkcji
+- Lepsze rozumienie przepływu danych pomiędzy funkcjami
+- Ćwiczenie przekazywania i zwracania danych
+- Lepsze rozumienie zależności pomiędzy funkcjami
+- Ćwiczenie projektowania przepływu danych w większych programach
+- Rozumienie, w jaki sposób informacje przemieszczają się przez kolejne warstwy programu
+
+III.3. Walidacja i obsługa błędów
+- Dalsze ćwiczenie walidacji
+- Obsługa różnych rodzajów nieprawidłowych danych wejściowych
+- Rozwijanie obsługi błędów
+- Lepsze łączenie walidacji z przepływem programu
+
+III.4. Struktury danych
+- Słowniki
+- Zagnieżdżone słowniki
+- Bardziej zaawansowane struktury danych
+- Dobieranie odpowiedniej struktury danych do problemu
+
+III.5. JSON
+- Struktura JSON
+- Odczyt i zapis plików JSON
+- Konwersja pomiędzy danymi Pythona i JSON
+- Wykorzystanie JSON do przechowywania danych aplikacji
+
+III.6. Pliki i ścieżki
+- with open()
+- Praca ze ścieżkami plików
+- Praca z katalogami
+- Organizowanie plików i folderów projektu
+
+III.7. Moduły i architektura projektu
+- Tworzenie własnych modułów Pythona
+- Importowanie własnych funkcji i zmiennych
+- Dzielenie większych projektów na wiele plików
+- Budowanie aplikacji modułowej
+
+III.8. Klasy i obiekty
+- Klasy
+- Obiekty
+- Atrybuty
+- Metody
+- Konstruktory
+- Enkapsulacja
+- Dziedziczenie
+- Praktyczne wykorzystanie OOP
+
+III.9. Bazy danych
+- SQLite
+- Struktura baz danych
+- Łączenie Pythona z bazą danych
+- Praca z SQL z poziomu Pythona
+- MySQL z poziomu Pythona
+
+III.10. API
+- Czym są API
+- Wysyłanie i odbieranie danych
+- Praca z API w Pythonie
+- Łączenie aplikacji z zewnętrznymi usługami
+
+III.11. Testowanie i automatyzacja testów
+- Testowanie manualne
+- Przypadki testowe
+- Zgłaszanie błędów
+- Testy regresji
+- Testy automatyczne
+- pytest
+- Automatyzacja testów aplikacji webowych, np. za pomocą Playwright
+
+III.12. Tworzenie aplikacji
+- Streamlit
+- Budowanie aplikacji z interfejsem użytkownika
+- Komunikacja frontend i backend
+- Budowanie większych aplikacji w Pythonie
+
+III.13. Integracja AI
+- Praca z API usług AI
+- Łączenie aplikacji Python z usługami AI
+- Wykorzystanie różnych zewnętrznych dostawców AI
+- Integracja AI z większymi aplikacjami
